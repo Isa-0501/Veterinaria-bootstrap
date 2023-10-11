@@ -1,0 +1,96 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-image: url(./images/fondo1.jpg);
+    background-size: cover;
+    height: auto;
+}
+
+@font-face{
+    font-family: holyfat;
+    src: url(Holyfat.ttf);
+}
+
+.text-holyfat{
+    font-family: holyfat;
+    font-size: 50px;
+    color: #4cda00;
+}
+
+.navbar-nav a {
+    color: #4cda00;
+}
+
+.titulo{
+    background-color: rgba(255, 255, 255, 0.755);
+    border-radius: 2rem;
+}
+
+.parrafo{
+    background-color: #4cda009c;
+    padding: 2rem;
+    margin: 1rem;
+    font-size: 18px;
+}
+
+.p{
+    color: white;
+    font-size: 18px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.t{
+    color: #4cda00;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.p1{
+    color: rgb(0, 234, 255);
+    font-size: 18px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.nav-item a:hover{
+    color: white;
+}
+
+.nav-link:hover{
+    background-color: #4cda00;
+    border-radius: 1rem;
+}
+
+.boton{
+    width: 15rem;
+    height: 7rem;
+    border-radius: 50%;
+    background-color: #4cda00;
+    border: #4cda00;
+}
+
+.objetivo{
+    font-size: 50px;
+}
+
+.temas{
+    font-size: 50px;
+}
+
+.beneficios{
+    font-size: 50px;
+}
+
+.circulos{
+    margin: 1rem;
+}
+
+.luz:hover{
+    filter: brightness(1.1);
+}
+
+.footer{
+    background-color: rgba(255, 255, 255, 0.587);
+    padding: 2rem;
+}
